@@ -12,7 +12,7 @@ public class InterfazPrincipal extends JFrame {
         setSize(700, 700);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         add(new PanelLienzo());
-        setVisible(true); // Asegura que el JFrame sea visible.
+        setVisible(true); 
     }
 
     public static void main(String[] args) {
@@ -28,7 +28,7 @@ class PanelLienzo extends JPanel {
         super.paint(g);
         Graphics2D g2d = (Graphics2D) g;
 
-        // Dibuja figuras de prueba
+        //  figuras de prueba
         g2d.setColor(Color.GRAY);
         g2d.fill(new Rectangle2D.Double(0, 0, 400, 400)); // Rectángulo gris.
 
